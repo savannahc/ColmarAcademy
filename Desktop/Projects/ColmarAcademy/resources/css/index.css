@@ -1,0 +1,439 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: dimgrey;
+}
+
+body {
+	line-height: 1.4rem;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+h2 {
+	line-height: 2.4rem;
+}
+h3{
+	text-transform: uppercase;
+	font-size: .75rem;
+	color: lightsalmon;
+
+}
+h5 {
+	font-size: .75rem;
+}
+
+
+a {
+	color: CornflowerBlue;
+}
+
+p {
+	font-size: .75rem;
+}
+
+strong {
+	font-weight: bold;
+	color: dimgrey;
+}
+
+em {
+	font-style: italic;
+}
+
+/*Header*/
+nav {
+    padding-top: 1rem;
+    background-color: white;
+    color: #808080;
+    
+}
+
+nav span {
+	font-size: 1.5rem;
+	padding-left: .8rem;
+	padding-right: 40%; 
+	color: lightgrey;
+	padding-top: .7rem;
+}
+
+ul li {
+	display: inline;
+	padding: 0 1rem;
+}
+
+nav img {
+	padding-left: 2rem;
+	height: 3rem;
+}
+
+.container {
+	width: 100%;
+    margin: auto 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   
+}
+
+.mobile-menu {
+	display: none;
+}
+
+/* First Strip */
+
+.flex {
+	display: flex;
+}
+
+.first-strip {
+	background-color: lightgrey;
+}
+.first-strip img{
+	width: 60%;
+	height: 95%;
+	padding: 2rem 1.5rem;
+}
+
+.first-strip .banner {
+	display: block;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	margin: auto 0;
+}
+.banner h2 {
+	padding-top: 1.5rem;
+}
+
+.button {
+	width: 100px;
+	margin-top: 1.5rem;
+	padding: .5rem 3rem;
+	background-color: dimgrey;
+	color: white;
+	text-align: center;
+}
+
+/* Second Strip */
+.
+.strip-three-mobile {
+	display: none;
+}
+.strip-two {
+	background-color: ghostwhite;
+}
+
+.first-half {
+	padding-left: 1rem;
+	width: 65%;
+	display: block;
+	border-right: solid 1px lightgrey;
+}
+
+.first-half img {
+	width: 93%;
+	padding: 2rem 0;
+}
+.first-half h1{
+	line-height: 3rem;
+}
+
+.first-half h2 {
+	line-height: 2.4rem;
+	padding-top: 1.5rem;
+}
+
+.first-half p {
+	padding-bottom: 2rem;
+} 
+
+/*Other half of strip*/
+.second-half {
+	width: 423px;
+	padding-top: 1.05rem;
+}
+
+.item img{
+	width: 35%;
+	height: 35%;
+	padding: 1rem 1rem;
+}
+
+.item-text {
+	margin:auto;
+}
+
+#lecturer {
+	background-color: gainsboro;
+}
+
+#lecturer img {
+	padding-right: 1.9rem;
+}
+
+#lecturer .item-text{
+	padding-right: 2rem;
+}
+
+/*flex strip 3*/
+
+#mobile-list {
+	display: none;
+}
+.item-mobile {
+	display: none;
+}
+.strip-three {
+	background-color: gainsboro;
+
+}
+.strip-three h1{
+	padding:2rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.gridrowone, .gridrowtwo {
+	width: 100%;
+	justify-content: center;
+	background-color: gainsboro;
+}
+
+.gridrowtwo {
+	padding-bottom: 2rem;
+}
+.grid-item {
+	width: 260px;
+	height: 290px;
+	background-color: white;
+	margin: .5rem;
+}
+
+.grid-item img{
+	width: 100%;
+}
+
+.grid-item-text {
+	padding: 1rem;
+}
+
+/*Strip 4*/
+.strip-four{
+	background-color: ghostwhite;
+}
+
+.strip-four h1{
+	padding:2rem;
+	display: block;
+	margin: 0 auto;
+}
+.four-first-half {
+	background-color: ghostwhite;
+	width: 100%;
+}
+
+.four-first-half-video-text {
+	width: 500px;
+	padding: 2rem 0rem 2rem 1rem;
+}
+
+.four-first-half-video-text video {
+	width: 100%;
+}
+
+.four-list {
+	padding-bottom: 1rem;
+	padding-top: 2rem;
+	padding-left: 1rem;
+}
+
+.four-list-item {
+	height:168px;
+	width: 423px;
+}
+
+.four-list-item img{
+	width: 30%;
+	height: 70%;
+	padding: 1rem;
+}
+
+/*Footer*/
+footer {
+	background-color: white;
+	padding-bottom: 1.5rem;
+	padding-top: .5rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer span {
+	
+}
+footer h5 {
+	padding-right: 2rem;
+	padding-left: 1.5rem;
+	padding-top: .4rem;
+}
+
+
+ /*Mobile*/
+@media only screen and (max-width: 470px) {
+
+	a {
+		font-size: .7rem;
+	}
+   /*Mobile Menu*/
+   .container{
+   	display: none;
+   }
+
+   .mobile-menu {
+   	display: block;
+   	justify-content: space-between;
+   	padding: .1rem;
+   }
+
+   .mobile-menu img {
+   	height: 1.5rem;
+   	padding-bottom: .5rem;
+   	
+   }
+
+   /*Mobile Banner*/
+   .first-strip {
+   	width: 100%;
+   	display: block;
+   	padding-bottom: 2rem;
+
+   }
+   .first-strip img {
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   }	
+
+   .banner {
+   	margin: 0 auto;
+   	padding-right: 1rem;
+   	padding-left: 1rem;
+   }
+
+   .button {
+   	margin: 0 auto;
+   	margin-top: 1rem;
+   }
+
+   /*First Strip*/
+
+   .first-half {
+   	display: none;
+   }
+
+   .item {
+   	display: none;
+   }
+
+   .item-mobile {
+   	display: block;
+   }
+
+   .item-mobile img {
+   	width: 90%;
+   	padding: 1rem;
+   	
+   }
+
+   .item-mobile .item-text {
+   	padding-bottom: 1rem;
+   }
+
+   /*USE DIFFERENT PICTURES HERE make html class of mobile pictures*/
+
+   .item img {
+   	height: 60%;
+   	padding-left: 2rem;
+
+   }
+
+   .item-text {
+   	padding-left: 2rem;
+   	padding-bottom: 2rem;
+   }
+/*third strip*/
+
+/*FIX BAND OF GREY ABOVE START LEARNING*/
+   .strip-three {
+   	display: none;
+   }
+   .grid-item {
+   	display: none;
+   }
+   .gridrowone {
+display: none;
+   }
+   .gridrowTWO {
+display: none;
+   }
+
+   #mobile-list {
+	display: block;
+
+}
+   .strip-three-mobile{
+   	background-color: lightgrey;
+   text-align: center;
+
+
+   }
+   
+   .grid-item-mobile {
+   	display: block;
+   	background-color: lightgrey;
+   	padding-bottom: 1rem;
+  
+   	margin-top: 2REM;
+   }
+
+   .grid-item-text {
+   	padding: 1rem;
+   	text-align: left;
+   	background-color: ghostwhite;
+   	margin:  .5rem 1rem;
+ 
+   	
+   }
+/*fourth strip*/
+
+.four-first-half {
+	display: block;
+}
+
+.four-first-half video{
+	width:70%;
+	padding-left:.4rem;
+}
+
+.fourth-text {
+	display: none;
+}
+
+.four-list{
+	display: none;
+}
+
+/*footer*/
+footer {
+	justify-content: 
+	font-size: .5rem;
+
+}
+.terms{
+	display: none;
+}
+}
